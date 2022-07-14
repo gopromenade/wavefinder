@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Найти музыку по словам или ритму | Волноискатель</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Rubik&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.min.css">
+    </head>
+    <body>
+        
+<main class="app home">
+    <header class="header">
+    <div class="container">
+    <nav class="navigation">
+        <a href="/" class="navigation__logo logo"><img src="./images/logo.png" class="logo__icon" alt=""> Волноискатель</a>
+        <ul class="navigation__menu nav-menu">
+            <li class="nav-menu__item"><button class="navigation__link btn btn--link">Вход</button></li>
+            <li class="nav-menu__item"><button class="btn btn--primary btn--sm">Регистрация</button></li>
+        </ul>
+    </nav>
+</div>
+    <section class="home__hero hero">
+    <div class="container">
+        <div class="hero__search hero__content hero__content--visible">
+            <h1 class="hero__heading heading heading--h1">Находите песни по ритму или словам</h1>
+            <div class="widget">
+                <div class="widget__btn">
+                    <img src="./images/logo-white.png" alt="">
+                    <div class="widget__circle widget-pulse-idle"></div>
+                </div>
+                <div class="widget__title">Нажмите для начала поиска</div>
+            </div>
+        </div>
+
+        <div class="hero__result hero__content hero__content--hidden">
+            <div class="result">
+                <div class="result__cover">
+                    <img src="./images/covers/lg.png" class="result__image" alt="">
+                </div>
+                <div class="result__content">
+                    <div class="result__header">
+                        <div class="result__title heading heading--h2">I Knew You Were Trouble</div>
+                        <div class="result__author">Taylor Swift</div>
+                        <div class="result__info">Поп • Композицию нашли 731 раз</div>
+                    </div>
+                    <div class="result__footer">
+                        <span class="iconify result__icon" data-icon="akar-icons:spotify-fill"></span>
+                        <span class="iconify result__icon" data-icon="cib:apple-music"></span>
+                        <span class="iconify result__icon" data-icon="akar-icons:youtube-fill"></span>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="hero__logo-link logo-link">
+                <div class="logo-link__icon"><img src="./images/logo-sm.png" alt=""></div> Искать еще раз
+            </a>
+        </div>
+    </div>
+</section>
+</header>
+    <section class="chart section">
+    <div class="container">
+        <div class="chart__header section__header">
+            <div class="subtitle section__subtitle">Рейтинг волноискателя</div>
+            <h2 class="heading heading--h2">Ищут чаще всего</h2>
+        </div>
+        <div class="block">
+            <h3 class="block__heading heading heading--h3">Популярные композиции</h3>
+            <div class="block__content tracks">
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/1.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">As It Was</div>
+                        <div class="track__author">Harry Styles</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/2.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Afraid To Feel</div>
+                        <div class="track__author">LF System</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/3.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Glimpse of Us</div>
+                        <div class="track__author">Joji</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/4.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Happier Than Ever</div>
+                        <div class="track__author">Billie Eilish</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/5.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Green Green Grass</div>
+                        <div class="track__author">George Ezra</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/6.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Massive</div>
+                        <div class="track__author">Drake</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/7.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Potion</div>
+                        <div class="track__author">Calvin Harris, Dua Lipa & ...</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track">
+                    <div class="track__cover">
+                        <img src="./images/covers/8.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">When i’m Gone</div>
+                        <div class="track__author">Alesso & Katy Perry</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- hidden -->
+                <div class="track track--hidden">
+                    <div class="track__cover">
+                        <img src="./images/covers/9.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">First Class</div>
+                        <div class="track__author">Jack Harlowy</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track track--hidden">
+                    <div class="track__cover">
+                        <img src="./images/covers/10.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">About Damn Time</div>
+                        <div class="track__author">Lizzo</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="track track--hidden">
+                    <div class="track__cover">
+                        <img src="./images/covers/11.png" alt="">
+                    </div>
+                    <div class="track__content">
+                        <div class="track__title">Overpass Graffiti</div>
+                        <div class="track__author">Ed Sheeran</div>
+                        <div class="track__icons">
+                            <span class="track__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="track__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="track__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="block__footer block-footer">
+                <a href="#" class="block-footer__item load-link load-link--show-track">
+                    <div class="load-link__title">Смотреть еще</div>
+                    <span class="iconify" data-icon="akar-icons:chevron-up" data-rotate="2"></span>
+                </a>
+
+                <a href="#" class="block-footer__item load-link load-link--hide-track load-link--hidden">
+                    <div class="load-link__title">Убрать все</div>
+                    <span class="iconify" data-icon="akar-icons:chevron-up" data-rotate="4"></span>
+                </a>
+            </footer>
+        </div>
+        <div class="block">
+            <h3 class="block__heading heading heading--h3">Популярные исполнители</h3>
+            <div class="block__content authors">
+                <div class="author">
+                    <div class="author__cover">
+                        <img src="./images/artists/1.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Harry Styles</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author__cover">
+                        <img src="./images/artists/2.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">LF System</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author__cover">
+                        <img src="./images/artists/3.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Joji</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author__cover">
+                        <img src="./images/artists/4.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Lizzo</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author__cover">
+                        <img src="./images/artists/5.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Jack Harlow</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="author__cover">
+                        <img src="./images/artists/6.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Billie Eilish</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author author--hidden">
+                    <div class="author__cover">
+                        <img src="./images/artists/7.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Drake</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author author--hidden">
+                    <div class="author__cover">
+                        <img src="./images/artists/8.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">George Ezra</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                            <span class="author__icon icon iconify" data-icon="akar-icons:youtube-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="author author--hidden">
+                    <div class="author__cover">
+                        <img src="./images/artists/9.png" class="author__image" alt="">
+                    </div>
+                    <div class="author__content">
+                        <div class="author__title">Calvin Harris</div>
+                        <div class="author__icons">
+                            <span class="author__icon icon iconify" data-icon="akar-icons:spotify-fill"></span>
+                            <span class="author__icon icon iconify" data-icon="cib:apple-music"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="block__footer block-footer">
+                <a href="#" class="block-footer__item load-link load-link--show-author">
+                    <div class="load-link__title">Смотреть еще</div>
+                    <span class="iconify" data-icon="akar-icons:chevron-up" data-rotate="2"></span>
+                </a>
+
+                <a href="#" class="block-footer__item load-link load-link--hide-author load-link--hidden">
+                    <div class="load-link__title">Убрать все</div>
+                    <span class="iconify" data-icon="akar-icons:chevron-up" data-rotate="4"></span>
+                </a>
+            </footer>
+        </div>
+    </div>
+</section>
+    <section class="banner section">
+    <div class="banner__content">
+        <div class="container">
+            <div class="banner__header section__header">
+                <div class="subtitle section__subtitle">внесите свой вклад</div>
+                <h2 class="heading heading--h2">Помогите сделать сервис лучше</h2>
+            </div>
+            <div class="banner__desc">
+                Волноискатель — некоммерческий проект. Но мы оплачиваем сервера и труды наших программистов. Вы могли бы помочь, отправив небольшую сумму. Поверьте, даже $1 доллар внесет существенный вклад в развитие проекта!
+            </div>
+            <button class="btn btn--primary">Задонатить</button>
+        </div>
+    </div>
+    <div class="banner__cover">
+        <img src="./images/banner-cover.jpg" class="banner__image" alt="">
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <a href="/" class="footer__logo logo"><img src="./images/logo.png" class="logo__icon" alt=""> Волноискатель</a>
+            <div class="footer__copyright">© 2022. Все права защищены</div>
+        </div>
+    </div>
+</footer>
+</main>
+
+
+        <script src="js/app.min.js"></script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    </body>
+</html>
